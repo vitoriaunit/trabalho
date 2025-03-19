@@ -1,0 +1,9 @@
+.containerEspacoSecao1{
+    display: grid;
+    grid-template-columns: 70% 1fr;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }

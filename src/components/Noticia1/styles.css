@@ -1,0 +1,35 @@
+.containerMicrocontroladorSecao1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 50px;
+  }
+
+.containerMicrocontroladorSecao1Titulo{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    width: 450px;
+    font-size: 20px;
+  }
+
+  .containerMicrocontroladorSecao1TituloData{
+    font-size: 10px;
+    background-color: #F8F19E;
+    padding: 5px 5px 10px 5px;
+  }
+
+  .containerMicrocontroladorSecao1Texto{
+    display: flex;
+    gap: 15px;
+    width: 450px;
+  }
+
+  .containerMicrocontroladorSecao2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+  }
