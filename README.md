@@ -14,22 +14,12 @@ Para o deploy, foi utilizada a plataforma **Vercel**, que oferece suporte nativo
 
 Para executar o projeto localmente, siga os seguintes passos:
 
-1. **Clone o repositório**:
-   ```sh
-   git clone <URL_DO_REPOSITORIO>
-   ```
-
-2. **Acesse a pasta do projeto**:
-   ```sh
-   cd nome-do-projeto
-   ```
-
-3. **Instale as dependências**:
+1. **Instale as dependências**:
    ```sh
    npm install
    ```
 
-4. **Inicie o servidor de desenvolvimento**:
+2. **Inicie o servidor de desenvolvimento**:
    ```sh
    npm run dev
    ```
