@@ -1,54 +1,35 @@
-# React + TypeScript + Vite
+# Instruções para Configuração e Execução do Projeto
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Tecnologias e Bibliotecas Utilizadas no Projeto
 
-Currently, two official plugins are available:
+O projeto foi desenvolvido utilizando o framework **React**. Para a estilização dos componentes, foi empregada a biblioteca **Bootstrap**, que facilita a utilização de estilos e elementos pré-definidos, tornando o desenvolvimento mais ágil.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Além disso, a biblioteca **React Icons** foi utilizada para a exibição de ícones em formato SVG, garantindo uma aparência mais moderna para os ícones das redes sociais.
 
-## Expanding the ESLint configuration
+O código-fonte do projeto está disponível no **GitHub**, possibilitando a colaboração e o versionamento do código.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+Para o deploy, foi utilizada a plataforma **Vercel**, que oferece suporte nativo ao GitHub, permitindo que cada alteração feita no repositório seja automaticamente implantada, garantindo um fluxo de desenvolvimento contínuo e eficiente.
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## Como Iniciar o Projeto
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Para executar o projeto localmente, siga os seguintes passos:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+1. **Clone o repositório**:
+   ```sh
+   git clone <URL_DO_REPOSITORIO>
+   ```
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+2. **Acesse a pasta do projeto**:
+   ```sh
+   cd nome-do-projeto
+   ```
+
+3. **Instale as dependências**:
+   ```sh
+   npm install
+   ```
+
+4. **Inicie o servidor de desenvolvimento**:
+   ```sh
+   npm run dev
+   ```
